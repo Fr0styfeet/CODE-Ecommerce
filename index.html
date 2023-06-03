@@ -5,23 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="input.css">
     <title>Home</title>
 </head>
 
 <body class="font-sans">
+
+    <!--navbar-->
     <header>
         <nav class="flex flex-row justify-start sticky top-0 z-50 mt-7">
             <b><span class="text-customBlue text-4xl ml-32  mr-96 cursor-pointer">LOGO</span></b>
             <ul class="flex justify-end sticky top-0 z-50 ml-48 px-20 py-4 space-x-14">
                 <li class="text-customBlue cursor-pointer">Home</li>
                 <li class="cursor-pointer">About</li>
-                <a href="./contactus.html" target="_blank"><li class="cursor-pointer">Contact Us</li></a>
+                <a href="./contactus.html" target="_blank">
+                    <li class="cursor-pointer">Contact Us</li>
+                </a>
             </ul>
         </nav>
     </header>
 
-
+    <!--main heading -->
     <section class="flex flex-row my-3">
         <div class="mx-32 mt-24">
             <h1 class="text-5xl font-semibold">New E-commerce App <br> best for You</h1><br>
@@ -48,7 +53,7 @@
     <hr>
 
 
-
+    <!--small images-->
     <div class="float-right ">
         <img src="./images/1.png" alt="blue maze">
     </div>
@@ -57,7 +62,7 @@
     </div>
 
 
-
+    <!--Features-->
     <section class="mt-28 mx-32 mb-32">
         <h1 class="text-3xl font-semibold">What we do to help <br> our customers in <br> digital era.</h1>
 
@@ -127,10 +132,12 @@
                 <span class="font-semibold">Angel Paulina</span>
 
                 <div class="flex justify-center box-border mt-20 ml-64  ">
-                    <div class="flex items-center bg-customBlue  w-12 h-12 box-border border shadow-lg rounded-sm">
+                    <div
+                        class="flex items-center bg-customBlue  w-12 h-12 cursor-pointer box-border border shadow-lg rounded-sm">
                         <span class="text-white text-3xl py-2 px-3 ">&lt;</span>
                     </div>
-                    <div class="flex items-center bg-white  w-12 h-12 box-border border shadow-lg rounded-sm ">
+                    <div
+                        class="flex items-center bg-white  w-12 h-12 cursor-pointer box-border border shadow-lg rounded-sm ">
                         <span class="text-customBlue text-2xl py-2 px-3  ">&gt;</span>
                     </div>
                 </div>
@@ -141,21 +148,20 @@
 
         </div>
 
-
     </section>
-    
 
-    <article class="flex ">
+    <article class="flex flex-row justify-around -mt-52">
         <div>
-            <img src="./images/3mobiles.png" alt="">
+            <img src="./images/3mobiles.png" class="h-5/6 " alt="">
         </div>
-        <div>
+        <div class="-ml-28 mt-40 mr-32">
             <h1 class="text-xl font-bold flex justify-center">Download app to enjoy more!</h1><br>
-            <p class="whitespace-nowrap">Amet in elementum nulla scelerisque dui, egestas at.<br> Elit consectetur turpis elementum amet vitae et etiam <br>nec. Varius volutpat hac adipiscing tincidunt pretium.</p><br>
+            <p class="whitespace-nowrap">Amet in elementum nulla scelerisque dui, egestas at.<br> Elit consectetur
+                turpis elementum amet vitae et etiam <br>nec. Varius volutpat hac adipiscing tincidunt pretium.</p>
+            <br><br>
             <div class="flex flex-row ">
                 <button>
-                    <img src="./images/asset 1 1.png" alt="android get img"
-                        class="bg-black rounded-lg py-2 px-4 mr-8 ">
+                    <img src="./images/asset 1 1.png" alt="android get img" class="bg-black rounded-lg py-2 px-4 mr-8 ">
                 </button>
                 <button>
                     <img src="./images/asset 2 1.png" alt="apple get img" class="bg-black rounded-lg py-2 px-4 ">
@@ -163,6 +169,73 @@
             </div>
         </div>
     </article>
+
+    <!--maze design-->
+    <div class="flex justify-between">
+        <div>
+            <img src="./images/1 (2).png" alt="">
+        </div>
+        <div class="-z-10">
+            <img src="./images/2 (1).png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+<footer class="bg-customBlue text-white -mt-10 py-10 px-10 box-border">
+    <div class="bg-customBlue text-white   flex justify-around">
+    <b><h1 class="text-4xl cursor-pointer">LOGO</h1></b>
+    <div >
+        <ul>
+            <li class="underline font-semibold text-lg">Quick Links</li><br>
+            <li>Sign Up</li>
+            <li>About Us</li>
+        </ul>
+    </div>
+    <div >
+        <ul>
+            <li class="underline font-semibold text-lg">Others</li><br>
+            <li>User FAQs</li>
+            <li>Contact Us</li>
+            <li>Legal</li>
+            <li>Privacy Policy</li>
+            <li>Terms and Conditions</li>
+        </ul>
+    </div>
+    <div >
+        <ul>
+            <li class="underline font-semibold text-lg">Products</li><br>
+            <li>Send</li>
+            <li>Recieve</li>
+            <li>Buy</li>
+        </ul>
+    </div>
+    <div>
+        <p>Subscribe to our newsletter and be the<br> first to know about our updates</p><br>
+        <input type="text" placeholder="Email Address" class="border border-gray-300 rounded-sm p-2 w-64 text-customBlue">
+        <button type="submit" class="border border-gray-300 rounded-sm p-2 text-customBlue bg-white" >Subscribe</button>
+    </div>
+</div>
+  <br>  <hr>
+
+
+  <div class="flex flex-row justify-between pt-5 px-5 box-border">
+    <div >
+        <h6>Copyright © 2020. All rights reserved.</h6>
+    </div>
+    <div>
+        <ul class="flex flex-row justify-around">
+            <li><a href="#"></a><i class="fa fa-youtube"></i></li>
+            <li><a href="#"></a><i class="fa fa-instagram"></i></li>
+            <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+            <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+        </ul>
+    </div>
+</div>
+</footer>
+
 
 
 </body>
