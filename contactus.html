@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Us</title>
 </head>
 <body class="font-sans">
@@ -20,25 +21,47 @@
     </header>
 
 
-<section class="flex justify-center">
-    <h1>Get in touch</h1>
-    <div>
-        <div>
+<section class="border border-gray-300 rounded-md  mt-16 ">
+    <h1 class="underline flex justify-center text-customBlue font-semibold text-3xl">Get in touch</h1><br>
+    <li class="text-xl flex relative ml-96">Leave us a message</li><br>
+
+    <div class="flex flex-row justify-center">
+        <div class="flex flex-col justify-around">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>
+                    <input type="text" id="name" placeholder="First_Name Last_Name" class="border border-gray-300 rounded-md p-2 w-64 text-customBlue">
+                </li><br>
+                <li>
+                    <input type="text" id="emailaddress" placeholder="Email Address" class="border border-gray-300 rounded-md p-2 w-64 text-customBlue">
+                </li><br>
+                <li>
+                    <input type="text" id="message"  placeholder="Your Message" class="border border-gray-300 rounded-md p-2  w-64 h-32 text-customBlue">
+                </li><br>
+                <li>
+                    <button type="submit" id="submit" class="border border-gray-300 rounded-md p-2 w-64 text-white bg-customBlue" >Submit</button>
+                </li><br>
             </ul>
         </div>
-        <div>
+        <div class="ml-14">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="flex flex-row">
+                    <img src="./images/map.png" alt="pointer" class="w-4 h-6 mr-2 my-1"><p>Infomation technologies building, <br> Victoria Island, Lagos, Nigeria.</p>
+                </li><br>
+                <li class="flex flex-row">
+                    <img src="./images/phone.png" alt="phone" class="w-5 h-6 mr-2"><p>+234 081-1236-4568</p>
+                </li><br>
+                <li class="flex flex-row">
+                        <img src="./images/mail.png" alt="mail" class="w-6 h-4 my-1 mr-2"><p>hello@info.com.ng</p>
+                </li><br>
+                <li>
+                    <ul class="flex flex-row justify-start space-x-8">
+                        <li><a href="#"></a><i class="fa fa-youtube"></i></li>
+                        <li><a href="#"></a><i class="fa fa-instagram"></i></li>
+                        <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+                        <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+                    </ul>
+                </li><br>
+                <li><img src="./images/location.png" alt="location"></li>
             </ul>
         </div>
 
@@ -50,11 +73,19 @@
 
 
 
+ <!--maze design-->
+ <div class="flex justify-between">
+    <div>
+        <img src="./images/1 (2).png" alt="">
+    </div>
+    <div class="-z-10">
+        <img src="./images/2 (1).png" alt="">
+    </div>
+</div>
 
 
 
 
-<!-- 
     <footer class="bg-customBlue text-white -mt-10 py-10 px-10 box-border">
         <div class="bg-customBlue text-white   flex justify-around">
         <b><h1 class="text-4xl cursor-pointer">LOGO</h1></b>
@@ -97,7 +128,7 @@
             <h6>Copyright © 2020. All rights reserved.</h6>
         </div>
         <div>
-            <ul class="flex flex-row justify-around">
+            <ul class="flex flex-row justify-around space-x-8">
                 <li><a href="#"></a><i class="fa fa-youtube"></i></li>
                 <li><a href="#"></a><i class="fa fa-instagram"></i></li>
                 <li><a href="#"></a><i class="fa fa-facebook"></i></li>
@@ -106,7 +137,7 @@
         </div>
     </div>
     </footer> 
-      -->
+      
 
 
 </body>
