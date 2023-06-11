@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,137 +9,157 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Contact Us</title>
 </head>
-<body class="font-sans">
-    <header>
-        <nav class="flex flex-row justify-start sticky top-0 z-50 mt-7">
-            <b><span class="text-customBlue text-4xl ml-32  mr-96 cursor-pointer">LOGO</span></b>
-            <ul class="flex justify-end sticky top-0 z-50 ml-48 px-20 py-4 space-x-14">
-                <li class="text-customBlue cursor-pointer">Home</li>
-                <li class="cursor-pointer">About</li>
-                <a href="./contactus.html" target="_blank"><li class="cursor-pointer">Contact Us</li></a>
-            </ul>
-        </nav>
-    </header>
+
+<body class="font-sans ">
+
+    <div class="bg-gradient-to-t from-white to-blue-100 pt-5 ">
+        <!--navbar-->
+        <header>
+            <nav class="flex flex-row justify-start sticky top-0 z-50 mt-7">
+                <b><span class="text-customBlue text-4xl ml-32  mr-96 cursor-pointer">LOGO</span></b>
+                <ul class="flex justify-end sticky top-0 z-50 ml-48 px-20 py-4 space-x-14">
+                    <a href="./index.html" target="_blank">
+                        <li class="text-customBlue cursor-pointer">Home</li>
+                    </a>
+                    <li class="cursor-pointer">About</li>
+                    <a href="./contactus.html" target="_blank">
+                        <li class="cursor-pointer">Contact Us</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+
+        <!--contactus form--> 
+        <section class="flex justify-center">
+            <div class="border border-gray-100 rounded-md  mt-16 w-fit shadow-xl rounded-l py-10 px-9 bg-white">
+                <h1 class="underline flex justify-center text-customBlue font-semibold text-3xl">Get in touch</h1><br>
+
+                <div class="flex flex-row justify-center">
+                    <div class="flex flex-col justify-around"><br>
+                        <ul>
+                            <li class="text-xl font-bold flex">Leave us a message</li><br>
+                            <li class="relative">
+                                <input type="text" id="name" placeholder="First_Name Last_Name"
+                                    class="border border-gray-300 rounded-sm p-2 w-64 text-customBlue">
+                            </li><br>
+                            <li>
+                                <input type="text" id="emailaddress" placeholder="Email Address"
+                                    class="border border-gray-300 rounded-sm p-2 w-64 text-customBlue">
+                            </li><br>
+                            <li>
+                                <input type="text" id="message" placeholder="Your Message"
+                                    class="border border-gray-300 rounded-sm p-2  w-64 h-32 text-customBlue">
+                            </li><br>
+                            <li>
+                                <button type="submit" id="submit"
+                                    class="border border-gray-300 rounded-sm p-2 w-64 text-white bg-customBlue">Submit</button>
+                            </li><br>
+                        </ul>
+                    </div>
+                    <div class="ml-20 mt-8">
+                        <ul>
+                            <li class="flex flex-row">
+                                <img src="./images/map.png" alt="pointer" class="w-4 h-6 mr-2 my-1">
+                                <p>Infomation technologies building, <br> Victoria Island, Lagos, Nigeria.</p>
+                            </li><br>
+                            <li class="flex flex-row">
+                                <img src="./images/phone.png" alt="phone" class="w-5 h-6 mr-2">
+                                <p>+234 081-1236-4568</p>
+                            </li><br>
+                            <li class="flex flex-row">
+                                <img src="./images/mail.png" alt="mail" class="w-6 h-4 my-1 mr-2">
+                                <p>hello@info.com.ng</p>
+                            </li><br>
+                            <li>
+                                <ul class="flex flex-row justify-start space-x-8">
+                                    <li><a href="#"></a><i class="fa fa-youtube"></i></li>
+                                    <li><a href="#"></a><i class="fa fa-instagram"></i></li>
+                                    <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+                                    <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+                                </ul>
+                            </li><br>
+                            <li><img src="./images/location.png" alt="location"></li>
+                        </ul>
+                    </div>
 
 
-<section class="border border-gray-300 rounded-md  mt-16 ">
-    <h1 class="underline flex justify-center text-customBlue font-semibold text-3xl">Get in touch</h1><br>
-    <li class="text-xl flex relative ml-96">Leave us a message</li><br>
 
-    <div class="flex flex-row justify-center">
-        <div class="flex flex-col justify-around">
-            <ul>
-                <li>
-                    <input type="text" id="name" placeholder="First_Name Last_Name" class="border border-gray-300 rounded-md p-2 w-64 text-customBlue">
-                </li><br>
-                <li>
-                    <input type="text" id="emailaddress" placeholder="Email Address" class="border border-gray-300 rounded-md p-2 w-64 text-customBlue">
-                </li><br>
-                <li>
-                    <input type="text" id="message"  placeholder="Your Message" class="border border-gray-300 rounded-md p-2  w-64 h-32 text-customBlue">
-                </li><br>
-                <li>
-                    <button type="submit" id="submit" class="border border-gray-300 rounded-md p-2 w-64 text-white bg-customBlue" >Submit</button>
-                </li><br>
-            </ul>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <!--maze design-->
+    <div class="flex justify-between">
+        <div>
+            <img src="./images/1 (2).png" alt="">
         </div>
-        <div class="ml-14">
-            <ul>
-                <li class="flex flex-row">
-                    <img src="./images/map.png" alt="pointer" class="w-4 h-6 mr-2 my-1"><p>Infomation technologies building, <br> Victoria Island, Lagos, Nigeria.</p>
-                </li><br>
-                <li class="flex flex-row">
-                    <img src="./images/phone.png" alt="phone" class="w-5 h-6 mr-2"><p>+234 081-1236-4568</p>
-                </li><br>
-                <li class="flex flex-row">
-                        <img src="./images/mail.png" alt="mail" class="w-6 h-4 my-1 mr-2"><p>hello@info.com.ng</p>
-                </li><br>
-                <li>
-                    <ul class="flex flex-row justify-start space-x-8">
-                        <li><a href="#"></a><i class="fa fa-youtube"></i></li>
-                        <li><a href="#"></a><i class="fa fa-instagram"></i></li>
-                        <li><a href="#"></a><i class="fa fa-facebook"></i></li>
-                        <li><a href="#"></a><i class="fa fa-twitter"></i></li>
-                    </ul>
-                </li><br>
-                <li><img src="./images/location.png" alt="location"></li>
-            </ul>
+        <div class="-z-10">
+            <img src="./images/2 (1).png" alt="">
         </div>
-
-
-
     </div>
 
-</section>
 
-
-
- <!--maze design-->
- <div class="flex justify-between">
-    <div>
-        <img src="./images/1 (2).png" alt="">
-    </div>
-    <div class="-z-10">
-        <img src="./images/2 (1).png" alt="">
-    </div>
-</div>
-
-
-
-
+    <!--footer-->
     <footer class="bg-customBlue text-white -mt-10 py-10 px-10 box-border">
         <div class="bg-customBlue text-white   flex justify-around">
-        <b><h1 class="text-4xl cursor-pointer">LOGO</h1></b>
-        <div >
-            <ul>
-                <li class="underline font-semibold text-lg">Quick Links</li><br>
-                <li>Sign Up</li>
-                <li>About Us</li>
-            </ul>
+            <b>
+                <h1 class="text-4xl cursor-pointer">LOGO</h1>
+            </b>
+            <div>
+                <ul>
+                    <li class="underline font-semibold text-lg">Quick Links</li><br>
+                    <li>Sign Up</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="underline font-semibold text-lg">Others</li><br>
+                    <li>User FAQs</li>
+                    <li>Contact Us</li>
+                    <li>Legal</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="underline font-semibold text-lg">Products</li><br>
+                    <li>Send</li>
+                    <li>Recieve</li>
+                    <li>Buy</li>
+                </ul>
+            </div>
+            <div>
+                <p>Subscribe to our newsletter and be the<br> first to know about our updates</p><br>
+                <input type="text" placeholder="Email Address"
+                    class="border border-gray-300 rounded-sm p-2 w-64 text-customBlue">
+                <button type="submit"
+                    class="border border-gray-300 rounded-sm p-2 text-customBlue bg-white">Subscribe</button>
+            </div>
         </div>
-        <div >
-            <ul>
-                <li class="underline font-semibold text-lg">Others</li><br>
-                <li>User FAQs</li>
-                <li>Contact Us</li>
-                <li>Legal</li>
-                <li>Privacy Policy</li>
-                <li>Terms and Conditions</li>
-            </ul>
-        </div>
-        <div >
-            <ul>
-                <li class="underline font-semibold text-lg">Products</li><br>
-                <li>Send</li>
-                <li>Recieve</li>
-                <li>Buy</li>
-            </ul>
-        </div>
-        <div>
-            <p>Subscribe to our newsletter and be the<br> first to know about our updates</p><br>
-            <input type="text" placeholder="Email Address" class="border border-gray-300 rounded-sm p-2 w-64 text-customBlue">
-            <button type="submit" class="border border-gray-300 rounded-sm p-2 text-customBlue bg-white" >Subscribe</button>
-        </div>
-    </div>
-      <br>  <hr>
-    
-    
-      <div class="flex flex-row justify-between pt-5 px-5 box-border">
-        <div >
-            <h6>Copyright © 2020. All rights reserved.</h6>
-        </div>
-        <div>
-            <ul class="flex flex-row justify-around space-x-8">
-                <li><a href="#"></a><i class="fa fa-youtube"></i></li>
-                <li><a href="#"></a><i class="fa fa-instagram"></i></li>
-                <li><a href="#"></a><i class="fa fa-facebook"></i></li>
-                <li><a href="#"></a><i class="fa fa-twitter"></i></li>
-            </ul>
-        </div>
-    </div>
-    </footer> 
-      
+        <br>
+        <hr>
 
+
+        <div class="flex flex-row justify-between pt-5 px-5 box-border">
+            <div>
+                <h6>Copyright © 2020. All rights reserved.</h6>
+            </div>
+            <div>
+                <ul class="flex flex-row justify-around space-x-8">
+                    <li><a href="#"></a><i class="fa fa-youtube"></i></li>
+                    <li><a href="#"></a><i class="fa fa-instagram"></i></li>
+                    <li><a href="#"></a><i class="fa fa-facebook"></i></li>
+                    <li><a href="#"></a><i class="fa fa-twitter"></i></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
+
 </html>
