@@ -91,7 +91,8 @@
     "vite": "^4.3.9"
   },
   "scripts": {
-    "start":"vite"
+    "start":"vite",
+    "build": "tailwindcss build src/input.css -o public/input.css"
   },
   "keywords": [],
   "author": "",
